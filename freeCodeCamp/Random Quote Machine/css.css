@@ -1,0 +1,25 @@
+body{
+  background-color: #7BA23F;
+}
+.main{
+  width: 600px;
+  padding: 20px 50px;
+  margin: 300px auto 0 auto;
+  background-color: #ffffff;
+}
+.row{
+  position: relative;
+  min-height: 50px;
+}
+#info {
+  height: 200px;
+}
+#info p{
+  color: #7BA23F;
+  font-size: 24px;
+}
+#quote-btn{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

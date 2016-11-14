@@ -1,0 +1,48 @@
+#main{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#layout{
+	width: 800px;
+	margin: 0 auto;
+	height: 400px;
+	border: 1px solid #000000;
+	position: relative;
+	overflow: hidden;
+}
+#layout span {
+	position: absolute;
+	display: block;
+	white-space: nowrap;
+}
+#btn-box{
+	width: 800px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#btn-box label{
+	font-size: 24px;
+}
+#danmu{
+	display: inline-block;
+	box-sizing: border-box;
+	height: 50px;
+	font-size: 24px;
+	border:1px solid #000000;
+}
+button{
+	width: 100px;
+	height: 50px;
+	font-size: 24px;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+}
+#input-btn{
+	color: #0f0;
+}
+
+#clear-btn{
+	color:#f00;
+}

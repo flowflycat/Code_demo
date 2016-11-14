@@ -1,0 +1,60 @@
+#main {
+  width: 600px;
+  margin: 100px auto 0 auto;
+}
+#set-box{
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+#set-time {
+  width: 400px;
+  height: 30px;
+  line-height: 24px;
+  font-size: 20px;
+  padding: 0;
+}
+#ensure-btn {
+  width: 100px;
+  height: 34px;
+  background: #da5958;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+}
+#clock-box {
+  position: relative;
+  height: 512px;
+}
+
+#clock {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #da5958;
+  color: #ffffff;
+  width: 512px;
+  text-align: center;
+  height: 135px;
+  line-height: 135px;
+  font-size: 72px;
+}
+#control-box{
+  margin-top: 50px;
+}
+#start-btn,#reset-btn{
+  width: 200px;
+  height: 100px;
+  background: #da5958;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  font-size: 40px;
+}
+#start-btn:hover,#reset-btn:hover{
+  background: #c13323;
+  box-shadow: 0 0 10px #333333;
+}
+img {
+  width: 512px;
+  height: auto;
+}
